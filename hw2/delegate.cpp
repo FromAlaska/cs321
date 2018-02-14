@@ -25,7 +25,6 @@ vector<int> input, output, processID;
 mutex threadHandler;
 
 void workerThread() {
-  threadHandler.lock();
   while(!counter) {
     continue;
   }
